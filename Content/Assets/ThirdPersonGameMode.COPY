@@ -1,0 +1,44 @@
+Begin Object Class=/Script/Engine.Blueprint Name="ThirdPersonGameMode"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_14"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="UserConstructionScript"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_FunctionEntry Name="K2Node_FunctionEntry_34"
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_14"
+   End Object
+   Begin Object Name="UserConstructionScript"
+      Begin Object Name="K2Node_FunctionEntry_34"
+         bEnforceConstCorrectness=False
+         FunctionReference=(MemberParent=Class'"/Script/Engine.Actor"',MemberName="UserConstructionScript")
+         SignatureClass=Class'"/Script/Engine.Actor"'
+         SignatureName="UserConstructionScript"
+         NodeGuid=B8239B83421640EFCB94B8B05E3BADED
+         CustomProperties Pin (PinId=4AA7CD92463F177BAD8D078FFC3453B8,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsArray=False,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      Nodes(0)=K2Node_FunctionEntry'"K2Node_FunctionEntry_34"'
+      bAllowDeletion=False
+      GraphGuid=95F726184035EE2A76931290A7754078
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=DB7066BE48C92CF8AF7DA28C33E212F3
+   End Object
+   ParentClass=Class'"/Script/Engine.GameModeBase"'
+   BlueprintDescription="GameMode Blueprint that defines default pawn to use."
+   SimpleConstructionScript=SimpleConstructionScript'"ThirdPersonGameMode_C:SimpleConstructionScript_1"'
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   FunctionGraphs(0)=EdGraph'"UserConstructionScript"'
+   CategorySorting(0)="Default"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode:UserConstructionScript)
+   LastEditedDocuments(1)=(EditedObjectPath=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode:EventGraph)
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_14"'
+   GeneratedClass=BlueprintGeneratedClass'"ThirdPersonGameMode_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=BB57AD24E1B235769D5B0BF83FCBE66C
+End Object
